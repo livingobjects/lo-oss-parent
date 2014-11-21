@@ -9,7 +9,7 @@
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <wisdom.version>0.6.5</wisdom.version>
+        <wisdom.version>0.7-SNAPSHOT</wisdom.version>
         <assembly.tarLongFileMode>gnu</assembly.tarLongFileMode>
     </properties>
 
