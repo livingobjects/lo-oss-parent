@@ -202,4 +202,19 @@
         </dependencies>
     </dependencyManagement>
 
+    <profiles>
+        <profile>
+            <id>nexus</id>
+            <distributionManagement>
+                <repository>
+                    <id>nexus</id>
+                    <url>http://172.17.10.31:8081/nexus/content/repositories/releases</url>
+                </repository>
+                <snapshotRepository>
+                    <id>nexus</id>
+                    <url>http://172.17.10.31:8081/nexus/content/repositories/snapshots</url>
+                </snapshotRepository>
+            </distributionManagement>
+        </profile>
+    </profiles>
 </project>
