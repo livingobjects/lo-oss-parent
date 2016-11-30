@@ -3,8 +3,28 @@
 
     <groupId>com.livingobjects</groupId>
     <artifactId>livingobjects-oss-parent</artifactId>
-    <version>6-SNAPSHOT</version>
+    <version>5</version>
     <packaging>pom</packaging>
+
+    <name>${project.groupId}:${project.artifactId}</name>
+    <description>Parent POM for all LivingObjects OSS projects</description>
+    <url>https://github.com/livingobjects/lo-oss-parent</url>
+
+    <licenses>
+        <license>
+            <name>The Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Living Objects</name>
+            <email>support@livingobjects.com</email>
+            <organization>Living Objects</organization>
+            <organizationUrl>http://www.livingobjects.com</organizationUrl>
+        </developer>
+    </developers>
 
     <scm>
         <connection>scm:git:git@github.com:livingobjects/lo-oss-parent.git</connection>
