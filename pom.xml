@@ -3,7 +3,7 @@
 
     <groupId>com.livingobjects</groupId>
     <artifactId>livingobjects-oss-parent</artifactId>
-    <version>6</version>
+    <version>7</version>
     <packaging>pom</packaging>
 
     <name>${project.groupId}:${project.artifactId}</name>
@@ -229,11 +229,11 @@
             <distributionManagement>
                 <repository>
                     <id>nexus</id>
-                    <url>http://172.17.10.31:8081/nexus/content/repositories/releases</url>
+                    <url>http://nexus.livingobjects.com/repository/releases</url>
                 </repository>
                 <snapshotRepository>
                     <id>nexus</id>
-                    <url>http://172.17.10.31:8081/nexus/content/repositories/snapshots</url>
+                    <url>http://nexus.livingobjects.com/repository/snapshots</url>
                 </snapshotRepository>
             </distributionManagement>
         </profile>
